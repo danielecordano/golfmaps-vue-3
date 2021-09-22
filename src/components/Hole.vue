@@ -4,7 +4,6 @@
     :editable="isSelected"
     :click="true"
     @click="handleClick"
-    :deepWatch="isSelected"
     :path_changed="isSelected"
     @path_changed="isSelected && handlePathChanged($event)"
   />
